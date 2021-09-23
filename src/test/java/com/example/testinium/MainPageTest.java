@@ -58,21 +58,7 @@ public class MainPageTest {
         login.click();
 
         waitMillis(3000);
-
-
-//
-//        chromeDriver.navigate().to("https://www.gittigidiyor.com/uye-girisi?s=1");
-//        WebElement username = chromeDriver.findElement(By.id("L-UserNameField"));
-//        WebElement password = chromeDriver.findElement(By.id("L-PasswordField"));
-//
-//        username.sendKeys("denemetest986@gmail.com");
-//        password.sendKeys("trial.1990");
-//
-//        new WebDriverWait(chromeDriver,80)
-//                .until(ExpectedConditions
-//                        .elementToBeClickable(By
-//                                .id("gg-login-enter")))
-//                .click();
+        
 
         search(chromeDriver);
 
