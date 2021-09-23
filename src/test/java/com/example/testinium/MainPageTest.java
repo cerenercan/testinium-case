@@ -21,6 +21,7 @@ public class MainPageTest {
     private static final String USERNAME = "denemetest986@gmail.com";
     private static final String PASSWORD = "trial.1990";
 
+
     @BeforeAll
     public static void setUpAll() {
         Configuration.browserSize = "1280x800";
@@ -58,7 +59,7 @@ public class MainPageTest {
         login.click();
 
         waitMillis(3000);
-        
+
 
         search(chromeDriver);
 
